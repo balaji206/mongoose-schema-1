@@ -20,3 +20,7 @@ const activitytracking = new mongoose.Schema({
 })
 
 const activity = mongoose.model("user",activitytracking)
+
+module.exports = mongoose.model('user',userschema);
+module.exports = mongoose.model('profile',profileschema);
+module.exports = mongoose.model('activity',activitytracking);
